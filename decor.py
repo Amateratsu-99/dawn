@@ -3,8 +3,8 @@ class code:
     self.loc=location
     self.corp=corp
   def execute(self):
-    print("my location is:",self.location)
+    print("my location is:",self.loc)
     print("i work for:",self.corp)
     
-  p1=code(kolkata,amazon)
-  p1.execute()
+p1=code("kolkata","amazon")
+p1.execute()

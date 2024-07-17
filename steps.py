@@ -10,7 +10,7 @@ class construct(build):
 
     def process(self):
         for i in range(5):
-            print("ive done it")
+            print("need to work harder")
 
 a1=construct()
 a1.process()
